@@ -13,29 +13,26 @@ body {
 .title {
   background: #e3f4ff;
   font-size: 16px;
-  padding: 5px;
+  padding: 8px;
   margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
-  padding: 10px 6px;
+  padding: 16px 8px;
   margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
-  padding: 5px auto;
-  padding-bottom: 5px;
-  padding-top: 5px;
   text-align: center;
+  padding: 8px;
 }
 
 button {
-  display: block;
-  margin: auto;
-  margin-bottom: 0px;
-  padding: 5px 15px;
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
 }

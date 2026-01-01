@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-.header,
-.content,
-.footer,
-.left-links,
-.right-links {
-  border: 2px solid red;
+a {
+  color: rgb(94, 94, 94);
+  text-decoration: none;
 }
 
 body {
@@ -36,6 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 16px;
 }
 
 img {
@@ -47,6 +45,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -59,4 +58,5 @@ input {
 .footer {
   display: flex;
   justify-content: space-between;
+  background-color: #eeeeee;
 }

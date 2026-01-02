@@ -1,5 +1,4 @@
 * {
-  border: 0px solid red;
   box-sizing: border-box;
 }
 
@@ -9,7 +8,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -20,7 +18,7 @@ body {
   align-items: center;
   font-weight: 900;
   font-size: 32px;
-  padding: 16px;
+  padding: 0 16px;
 }
 
 .footer {
@@ -41,15 +39,17 @@ body {
   min-width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  padding-left: 0;
-  gap: 16px;
+  list-style-type: none;
+  padding: 0;
   margin: 16px;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 .sidebar a {
@@ -69,6 +69,6 @@ ul {
 .card-deck {
   display: flex;
   flex-wrap: wrap;
-  margin: 48px;
+  padding: 48px;
   gap: 32px;
 }
